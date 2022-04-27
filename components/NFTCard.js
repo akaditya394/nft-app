@@ -15,6 +15,7 @@ import {
 import { COLORS, SIZES, SHADOWS, assets } from "../constants";
 
 const NFTCard = ({ data }) => {
+  const navigation = useNavigation();
   return (
     <View
       style={{
