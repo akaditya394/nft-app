@@ -36,8 +36,9 @@ const NFTCard = ({ data }) => {
             borderTopRightRadius: SIZES.font,
           }}
         />
+        <CircleButton imgUrl={assets.heart} right={10} top={10} />
       </View>
-      <CircleButton imgUrl={assets.heart} right={10} top={10} />
+      <SubInfo />
     </View>
   );
 };
